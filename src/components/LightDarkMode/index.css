@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.darkmode-container {
+  width: 600px;
+  background-color: black;
+  align-items: center;
+  margin: 30px;
+   border: solid 1px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+.lightmode-container {
+  width: 600px;
+  background-color: white;
+  align-items: center;
+  margin: 30px;
+  padding: 20px;
+  border: solid 1px;
+  text-align: center;
+  border-radius: 10px;
+}
+.dark-heading {
+  color: white;
+  font-size: 24px;
+}
+.light-heading {
+  color: black;
+  font-size: 24px;
+}
